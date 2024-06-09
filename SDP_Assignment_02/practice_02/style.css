@@ -1,0 +1,67 @@
+.products-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(255, 242, 0);
+    box-shadow: 4px 7px 7px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+.ditails-buttom{
+    border: none;
+    background-color: white;
+}
+.ditails{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ditails-card{
+   border: 2px solid rgb(255, 242, 0);
+    box-shadow: 4px 7px 7px;
+    border-radius: 10px;
+    text-align: center; 
+    padding: 10px;
+    width: 500px;
+    height: auto;
+}
+.search{
+    margin: 50px 50px 50px 400px;
+}
+.search-box{
+    font-size: 20px;
+    color: rgb(255, 170, 0);
+    background-color: rgb(37, 0, 72);
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 4px 7px 7px;
+}
+.hendleAdd{
+    font-size: 20px;
+    color: rgb(255, 146, 3);
+    background-color: rgb(37, 0, 72);
+    width: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 7px 7px;
+}
